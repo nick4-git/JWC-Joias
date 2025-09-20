@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JWC - Jóias</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e7cfb7;
+      color: #333;
+    }
+
+    header {
+      background-color: #eed2b7;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      color: #8a5c2f;
+      margin: 0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #5c4431;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://images.pexels.com/photos/2735981/pexels-photo-2735981.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(255, 255, 255);
+      text-shadow: 1px 1px 5px #000;
+    }
+
+    .hero h2 {
+      font-size: 3em;
+      max-width: 80%;
+      text-align: center;
+    }
+
+    .section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 2em;
+      color: #3f2811;
+      margin-bottom: 20px;
+    }      
+
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .product-card {
+      background-color: white;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .product-card h4 {
+      margin: 10px 0;
+      color: #5c4431;
+    }
+
+    footer {
+      background-color: #f8f1ea;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JWC</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Coleções</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Expresse a beleza dentro de você</h2>
+  </section>
+
+  <section class="section">
+    <h1>Destaques da Coleção</h1>
+    <div class="products">
+      <div class="product-card">
+        <img src="..\teste copy\img\anel.png" alt="Anel de Ouro" />
+        <h4>Kit Par de Alianças + Anel Solitário</h4>
+        <p>R$ 2.300,00</p>
+      </div>
+      <div class="product-card">
+        <img src="..\teste copy\img\colar.jpg" alt="Colar de Pérolas" />
+        <h4>Colar de Pérolas</h4>
+        <p>R$ 1.250,00</p>
+      </div>
+      <div class="product-card">
+        <img src="..\teste copy\img\brinco_diamante.png" alt="Brincos de Diamante" />
+        <h4>Brincos de Diamante</h4>
+        <p>R$ 2.990,00</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 JWC | Todos os direitos reservados.
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
